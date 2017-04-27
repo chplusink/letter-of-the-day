@@ -1,0 +1,34 @@
+.page {
+  
+}
+
+header {
+  font-size: 92px;
+}
+
+.alpha {
+  font-size: calc(80px + 40 * ((100vw - 1024px) / 416));
+}
+
+@media screen and (min-width: 1440px) {
+
+  .alpha {
+    font-size: 120px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .alpha {
+    font-size: 80px;
+  }
+}
+
+.lod {
+  font-size: 128px;
+}
+
+.message {
+  margin: 0 auto;
+  width: 30%;
+}

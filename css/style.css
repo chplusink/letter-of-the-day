@@ -1,0 +1,439 @@
+/**************************************************
+* Partials
+**************************************************/
+/**************************************************
+* Stroke for Alphabet
+**************************************************/
+.alpha span {
+  text-shadow: -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white;
+}
+/**************************************************
+* Synesthesia
+**************************************************/
+/**********    Keyframes  **********/
+@-webkit-keyframes fade-red {
+  0% {
+    color: white;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes fade-red {
+  0% {
+    color: white;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: white;
+  }
+}
+@-webkit-keyframes fade-blue {
+  0% {
+    color: white;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes fade-blue {
+  0% {
+    color: white;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: white;
+  }
+}
+@-webkit-keyframes fade-yellow {
+  0% {
+    color: white;
+  }
+  50% {
+    color: yellow;
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes fade-yellow {
+  0% {
+    color: white;
+  }
+  50% {
+    color: yellow;
+  }
+  100% {
+    color: white;
+  }
+}
+@-webkit-keyframes fade-magenta {
+  0% {
+    color: white;
+  }
+  50% {
+    color: magenta;
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes fade-magenta {
+  0% {
+    color: white;
+  }
+  50% {
+    color: magenta;
+  }
+  100% {
+    color: white;
+  }
+}
+@-webkit-keyframes fade-orange {
+  0% {
+    color: white;
+  }
+  50% {
+    color: orange;
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes fade-orange {
+  0% {
+    color: white;
+  }
+  50% {
+    color: orange;
+  }
+  100% {
+    color: white;
+  }
+}
+@-webkit-keyframes fade-green {
+  0% {
+    color: white;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes fade-green {
+  0% {
+    color: white;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: white;
+  }
+}
+/**********    Classes  **********/
+.fade-red {
+  -webkit-animation: fade-red 8s linear 1;
+          animation: fade-red 8s linear 1;
+}
+.fade-blue {
+  -webkit-animation: fade-blue 8s linear 1;
+          animation: fade-blue 8s linear 1;
+}
+.fade-yellow {
+  -webkit-animation: fade-yellow 8s linear 1;
+          animation: fade-yellow 8s linear 1;
+}
+.fade-magenta {
+  -webkit-animation: fade-magenta 8s linear 1;
+          animation: fade-magenta 8s linear 1;
+}
+.fade-orange {
+  -webkit-animation: fade-orange 8s linear 1;
+          animation: fade-orange 8s linear 1;
+}
+.fade-green {
+  -webkit-animation: fade-green 8s linear 1;
+          animation: fade-green 8s linear 1;
+}
+/**************************************************
+* Letter of the Day
+**************************************************/
+/**********    Keyframes  **********/
+@-webkit-keyframes lod-animate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  2% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  4% {
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+  }
+  6% {
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+  }
+  8% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  12% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes lod-animate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  2% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  4% {
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+  }
+  6% {
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+  }
+  8% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  12% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+.lod-animate {
+  -webkit-animation: lod-animate 5s linear infinite;
+          animation: lod-animate 5s linear infinite;
+}
+
+/**************************************************
+* Breakpoints
+**************************************************/
+
+/**************************************************
+* Elements
+**************************************************/
+
+body {
+  margin: 0;
+  padding: 2vh;
+  height: 100vh;
+  background: #EE943F;
+  overflow: hidden;
+}
+
+.page {
+  box-sizing: border-box;
+  height: 96vh;
+  padding: 20px;
+  background: #33A23D;
+  border-radius: 30px;
+  text-align: center;
+}
+
+/**************************************************
+* Header
+**************************************************/
+
+header {
+  margin-bottom: 12px;
+  padding: 6px 16px;/*height: 72px;*/
+  border: 8px solid #FEE303;
+  border-radius: 10px;
+  background: #33A23D;
+  color: white;
+  font-family: 'Sigmar One', sans-serif;
+  font-size: calc(30px + 6 * ((100vw - 320px) / 55));
+  line-height: 1;
+}
+
+@media screen and (min-width: 375px) {
+  header {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    font-size: 30px;
+  }
+}
+
+/**************************************************
+* Alphabet
+**************************************************/
+
+.alpha {
+  margin-bottom: 20px;
+  font-family: 'Short Stack', sans-serif;
+  font-size: calc(44px + 8 * ((100vw - 320px) / 55));
+  color: white;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 375px) {
+  .alpha {
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .alpha {
+    font-size: 44px;
+  }
+}
+
+/**************************************************
+* Message
+**************************************************/
+
+.message {
+  padding: 8px 10%;
+  border: 3px solid #FEE303;
+  border-radius: 4px;
+  background: rgba(111,66,24,0.5);
+  font-family: 'Short Stack', sans-serif;
+  font-size: calc(14px + 2 * ((100vw - 320px) / 55));
+  color: white;
+}
+
+@media screen and (min-width: 375px) {
+  .message {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .message {
+    font-size: 14px;
+  }
+}
+
+/**************************************************
+* Letter of the Day
+**************************************************/
+
+.lod {
+  display: inline-block;
+  padding: 0px 6px;
+  font-size: calc(54px + 8 * ((100vw - 320px) / 55));
+  text-shadow: 4px 4px rgba(170,170,170,0.5) !important;
+  line-height: 0.8;
+}
+
+@media screen and (min-width: 375px) {
+  .lod {
+    font-size: 62px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lod {
+    font-size: 54px;
+  }
+}
+
+.lod:hover {
+  background-color: rgba(200,200,200,0.5);
+  border-radius: 200px;
+  color: yellow;
+  transition: color 1s;
+}
+
+/**************************************************
+* Letter of the Day
+**************************************************/
+
+.elmo {
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .page {}
+  header {
+    font-size: 72px;
+  }
+  .alpha {
+    font-size: 92px;
+  }
+  .lod {
+    font-size: 102px;
+  }
+  .lod:hover {
+    border: 6px solid rgba(200,200,200,0.5);
+  }
+  .message {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page {}
+  header {
+    font-size: 92px;
+  }
+  .alpha {
+    font-size: calc(80px + 40 * ((100vw - 1024px) / 416));
+  }
+  @media screen and (min-width: 1440px) {
+    .alpha {
+      font-size: 120px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .alpha {
+      font-size: 80px;
+    }
+  }
+  .lod {
+    font-size: 128px;
+  }
+  .message {
+    margin: 0 auto;
+    width: 30%;
+  }
+}

@@ -1,0 +1,23 @@
+.page {
+
+}
+
+header {
+  font-size: 72px;
+}
+
+.alpha {
+  font-size: 92px;
+}
+
+.lod {
+  font-size: 102px
+}
+
+.lod:hover {
+  border: 6px solid rgba(200,200,200,0.5);
+}
+
+.message {
+  font-size: 22px;
+}

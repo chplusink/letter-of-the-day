@@ -1,0 +1,119 @@
+/**************************************************
+* Synesthesia
+**************************************************/
+
+/**********    Keyframes  **********/
+
+@-webkit-keyframes fade-red {
+  0% { color: $alpha-font }
+  50% { color: red }
+  100% { color: $alpha-font }
+}
+
+@keyframes fade-red {
+  0% { color: $alpha-font }
+  50% { color: red }
+  100% { color: $alpha-font }
+}
+
+@-webkit-keyframes fade-blue {
+  0% { color: $alpha-font }
+  50% { color: blue }
+  100% { color: $alpha-font }
+}
+
+@keyframes fade-blue {
+  0% { color: $alpha-font }
+  50% { color: blue }
+  100% { color: $alpha-font }
+}
+
+@-webkit-keyframes fade-yellow {
+  0% { color: $alpha-font }
+  50% { color: yellow }
+  100% { color: $alpha-font }
+}
+
+@keyframes fade-yellow {
+  0% { color: $alpha-font }
+  50% { color: yellow }
+  100% { color: $alpha-font }
+}
+
+@-webkit-keyframes fade-magenta {
+  0% { color: $alpha-font }
+  50% { color: magenta }
+  100% { color: $alpha-font }
+}
+
+@keyframes fade-magenta {
+  0% { color: $alpha-font }
+  50% { color: magenta }
+  100% { color: $alpha-font }
+}
+
+@-webkit-keyframes fade-orange {
+  0% { color: $alpha-font }
+  50% { color: orange }
+  100% { color: $alpha-font }
+}
+
+@keyframes fade-orange {
+  0% { color: $alpha-font }
+  50% { color: orange }
+  100% { color: $alpha-font }
+}
+
+@-webkit-keyframes fade-green {
+  0% { color: $alpha-font }
+  50% { color: green }
+  100% { color: $alpha-font }
+}
+
+@keyframes fade-green {
+  0% { color: $alpha-font }
+  50% { color: green }
+  100% { color: $alpha-font }
+}
+
+
+/**********    Classes  **********/
+
+.fade-red { -webkit-animation: fade-red 8s linear 1; animation: fade-red 8s linear 1 }
+.fade-blue { -webkit-animation: fade-blue 8s linear 1; animation: fade-blue 8s linear 1 }
+.fade-yellow { -webkit-animation: fade-yellow 8s linear 1; animation: fade-yellow 8s linear 1 }
+.fade-magenta { -webkit-animation: fade-magenta 8s linear 1; animation: fade-magenta 8s linear 1 }
+.fade-orange { -webkit-animation: fade-orange 8s linear 1; animation: fade-orange 8s linear 1 }
+.fade-green { -webkit-animation: fade-green 8s linear 1; animation: fade-green 8s linear 1 }
+
+
+
+/**************************************************
+* Letter of the Day
+**************************************************/
+
+/**********    Keyframes  **********/
+
+@-webkit-keyframes lod-animate {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  2% { -webkit-transform: rotate(10deg); transform: rotate(10deg); }
+  4% { -webkit-transform: rotate(-8deg); transform: rotate(-8deg); }
+  6% { -webkit-transform: rotate(6deg); transform: rotate(6deg); }
+  8% { -webkit-transform: rotate(-4deg); transform: rotate(-4deg); }
+  10% { -webkit-transform: rotate(2deg); transform: rotate(2deg); }
+  12% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+}
+
+@keyframes lod-animate {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  2% { -webkit-transform: rotate(10deg); transform: rotate(10deg); }
+  4% { -webkit-transform: rotate(-8deg); transform: rotate(-8deg); }
+  6% { -webkit-transform: rotate(6deg); transform: rotate(6deg); }
+  8% { -webkit-transform: rotate(-4deg); transform: rotate(-4deg); }
+  10% { -webkit-transform: rotate(2deg); transform: rotate(2deg); }
+  12% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+}
+
+.lod-animate { -webkit-animation: lod-animate 5s linear infinite; animation: lod-animate 5s linear infinite }
