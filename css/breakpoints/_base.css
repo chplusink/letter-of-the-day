@@ -152,8 +152,11 @@ header {
 **************************************************/
 
 
-.elmo {
-  position: absolute;
-  bottom: 0;
-  right: 2%;
+.elmo .elmo--down {
+  width: 38%;
+}
+
+
+.elmo .elmo--jump {
+  width: 34%;
 }

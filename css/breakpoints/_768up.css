@@ -21,3 +21,7 @@ header {
 .message {
   font-size: 22px;
 }
+
+.elmo .elmo--jump {
+  /*width: 74%;*/
+}

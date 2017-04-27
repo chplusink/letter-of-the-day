@@ -386,10 +386,12 @@ header {
 * Letter of the Day
 **************************************************/
 
-.elmo {
-  position: absolute;
-  bottom: 0;
-  right: 2%;
+.elmo .elmo--down {
+  width: 38%;
+}
+
+.elmo .elmo--jump {
+  width: 34%;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -408,6 +410,8 @@ header {
   }
   .message {
     font-size: 22px;
+  }
+  .elmo .elmo--jump {/*width: 74%;*/
   }
 }
 
@@ -435,5 +439,16 @@ header {
   .message {
     margin: 0 auto;
     width: 30%;
+  }
+  .elmo {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  .elmo img {
+    float: right;
+  }
+  .elmo .elmo--jump {
+    width: 100%;
   }
 }

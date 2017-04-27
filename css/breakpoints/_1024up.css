@@ -1,5 +1,5 @@
 .page {
-  
+
 }
 
 header {
@@ -31,4 +31,18 @@ header {
 .message {
   margin: 0 auto;
   width: 30%;
+}
+
+.elmo {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.elmo img {
+  float: right;
+}
+
+.elmo .elmo--jump {
+  width: 100%;
 }

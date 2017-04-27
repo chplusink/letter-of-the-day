@@ -10,11 +10,11 @@ function letterOfDay() {
   $(`#${lod}`).addClass('lod lod-animate')
     .mouseenter(function(){
       $('#message').text(`You found it! The letter of the day is ${lod}`)
-      $('#elmo').html('<img src="./assets/elmo_jump.png" alt="elmo"></img>')
+      $('#elmo').html('<img class="elmo--jump" src="./assets/elmo_jump.png" alt="elmo"></img>')
     })
     .mouseleave(function(){
       $('#message').text(`Can you find it again?`)
-      $('#elmo').html('<img src="./assets/elmo_down.png" width="340" height="auto" alt="elmo"></img>')
+      $('#elmo').html('<img class="elmo--down" src="./assets/elmo_down.png" alt="elmo"></img>')
     })
 }
 
