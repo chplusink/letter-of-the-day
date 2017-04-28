@@ -1,5 +1,9 @@
-.page {
+body {
+    height: 100vh;
+}
 
+.page {
+  height: 96vh;
 }
 
 header {
@@ -12,16 +16,16 @@ header {
 
 @media screen and (min-width: 1440px) {
 
-  .alpha {
-    font-size: 120px;
-  }
+    .alpha {
+        font-size: 120px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
 
-  .alpha {
-    font-size: 80px;
-  }
+    .alpha {
+        font-size: 80px;
+    }
 }
 
 .lod {
@@ -40,9 +44,9 @@ header {
 }
 
 .elmo img {
-  float: right;
+    float: right;
 }
 
 .elmo .elmo--jump {
-  width: 100%;
+    width: 100%;
 }

@@ -5,14 +5,13 @@
 body {
   margin: 0;
   padding: 2vh;
-  height: 100vh;
   background: $brown-light;
   overflow: hidden;
 }
 
 .page {
   box-sizing: border-box;
-  height: 96vh;
+  height: 736px - 44px;
   padding: 20px;
   background: $green;
   border-radius: 30px;
@@ -61,7 +60,7 @@ header {
 .alpha {
   margin-bottom: 20px;
   font-family: 'Short Stack', sans-serif;
-  font-size: calc(44px + 8 * ((100vw - 320px) / 55));
+  font-size: calc(36px + 6 * ((100vw - 320px) / 55));
   color: $alpha-font;
   text-transform: uppercase;
 }
@@ -69,14 +68,14 @@ header {
 @media screen and (min-width: 375px) {
 
   .alpha {
-    font-size: 52px;
+    font-size: 42px;
   }
 }
 
 @media screen and (max-width: 320px) {
 
   .alpha {
-    font-size: 44px;
+    font-size: 36px;
   }
 }
 
@@ -119,7 +118,7 @@ header {
 .lod {
   display: inline-block;
   padding: 0px 6px;
-  font-size: calc(54px + 8 * ((100vw - 320px) / 55));
+  font-size: calc(38px + 16 * ((100vw - 320px) / 55));
   text-shadow: 4px 4px rgba(170,170,170,0.5) !important;
   line-height: 0.8
 }
@@ -127,14 +126,14 @@ header {
 @media screen and (min-width: 375px) {
 
   .lod {
-    font-size: 62px;
+    font-size: 54px;
   }
 }
 
 @media screen and (max-width: 320px) {
 
   .lod {
-    font-size: 54px;
+    font-size: 38px;
   }
 }
 
